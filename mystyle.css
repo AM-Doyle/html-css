@@ -1,0 +1,60 @@
+body {
+    background: #d7c6cf url("./images/sableyeSprite3.png") repeat fixed 0px 0px;
+    text-align: center;
+}
+img {
+    max-width: 55px;
+}
+
+.lav {
+    border: 10px solid #a74e8e;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+    display: inline-block;
+    max-width: 1000px;
+}
+
+
+h1, h2, h3 {
+    font-family: "Lucida Console", Monospace;
+    background: #8caba8;
+    margin: 10px;
+
+}
+ol, ul {
+    font-family: "Lucida Console", Monospace;
+    background-color: #a2798f;
+    color: #dfdfde;
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 20px;
+}
+p {
+    font-family: "Lucida Console", Monospace;
+}
+a {
+    font-family: "Lucida Console", Monospace;
+    color: #ff7373;
+    font-size: larger;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr); /* 19 columns */
+    grid-template-rows: repeat(2, 1fr);    /* 11 rows */
+    gap: 5px;  /* Adjust the gap between cells as needed */
+    height: 50vh; /* Adjust the height as needed */
+    background-color: #2196F3;
+    padding: 10px;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
